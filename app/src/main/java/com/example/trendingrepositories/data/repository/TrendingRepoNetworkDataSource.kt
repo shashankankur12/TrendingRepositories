@@ -4,6 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.example.trendingrepositories.data.api.TrendingRepoInterface
 import com.example.trendingrepositories.data.pojo.RepoDetails
+import com.example.trendingrepositories.utils.Resource
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
 

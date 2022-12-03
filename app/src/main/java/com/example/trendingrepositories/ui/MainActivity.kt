@@ -14,7 +14,8 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.trendingrepositories.R
 import com.example.trendingrepositories.data.api.TrendingRepoClient
 import com.example.trendingrepositories.data.api.TrendingRepoInterface
-import com.example.trendingrepositories.data.repository.Resource
+import com.example.trendingrepositories.utils.Resource
+import com.example.trendingrepositories.data.repository.TrendingRepoRepository
 import com.example.trendingrepositories.utils.snackbar
 import kotlinx.android.synthetic.main.activity_main.*
 

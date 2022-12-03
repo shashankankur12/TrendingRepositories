@@ -1,4 +1,4 @@
-package com.example.trendingrepositories.data.repository
+package com.example.trendingrepositories.utils
 
 class Resource<T> private constructor(val status: Status, val data: T?, val message: String?) {
     enum class Status {

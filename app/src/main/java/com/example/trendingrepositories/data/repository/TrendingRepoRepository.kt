@@ -1,10 +1,9 @@
-package com.example.trendingrepositories.ui
+package com.example.trendingrepositories.data.repository
 
 import androidx.lifecycle.LiveData
 import com.example.trendingrepositories.data.api.TrendingRepoInterface
 import com.example.trendingrepositories.data.pojo.RepoDetails
-import com.example.trendingrepositories.data.repository.Resource
-import com.example.trendingrepositories.data.repository.TrendingRepoNetworkDataSource
+import com.example.trendingrepositories.utils.Resource
 import io.reactivex.disposables.CompositeDisposable
 
 
